@@ -14,14 +14,6 @@
             "description": "Get this value by making a bot from @BotFather.",
             "required": true
         },
-        "BOT_USER": {
-            "description": "Get this value by making a bot .",
-            "required": true
-        },
-        "update_channel": {
-            "description": "Get this value by making a bot from @BotFather.",
-            "required": true
-        },
         "OWNER_ID": {
             "description": "Your telegram user id.",
             "required": true
