@@ -157,15 +157,9 @@ async def eval(client, message):
 
 @app.on_message( filters.photo & filters.private)
 async def sentphot (client, message):
-    chat_id = message.chat.id
-    user_id = message.from_user["id"]
-    user_n = message.from_user["username"]
+    chat_id = message.chat.i
     add_chat_to_db(str(chat_id))
-    ms_id =message.message_id
-    if user_n != tru_bot:
-        await app.forward_messages(chat_id=update_channel, from_chat_id=user_id, message_ids=ms_id)
-        await app.send_message(chat_id=update_channel, text=
-        "معرف المرسل : @{}".format(user_n))
+ 
 
 
 
